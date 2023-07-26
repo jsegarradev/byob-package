@@ -12,7 +12,7 @@ SUDO="sudo"
 vrlFilesDir="/usr/local/src/vrl-package"
 vrlServiceFile="/etc/systemd/system/vrl.service"
 vrlCommandFile="/usr/local/bin/vrl"
-byobGitUrl="https://github.com/vrlnx/byob.git"
+byobGitUrl="https://github.com/jsegarradev/byob-custom.git"
 byobFileDir="${vrlFilesDir}/byob"
 say() {
     echo "::: $@"
