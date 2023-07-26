@@ -1,0 +1,6 @@
+base
+wiki
+.idea
+
+# Exclude spesific .env files
+localSettings.env

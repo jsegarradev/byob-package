@@ -1,0 +1,13 @@
+[Unit]
+Description=VRL Package - C2 Server
+After=network.target
+
+[Service]
+User=root
+WorkingDirectory=/usr/local/src/vrl-package/byob
+ExecStart=/usr/bin/env bash /usr/local/src/vrl-package/byob/web-gui/service.sh
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
