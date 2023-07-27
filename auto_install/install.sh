@@ -68,10 +68,10 @@ installDependensieRepos() {
     done
 }
 installDocker() {
-    if [[ "$(which docker)" == "/usr/bin/docker" ]]; 
-    then 
+    if [[ "$(which docker)" == "/usr/bin/docker" ]];
+    then
         say "Docker is already installed..."
-    else 
+    else
         say "Setting up Docker..."
         curl -fsSL https://get.docker.com | bash
     fi
