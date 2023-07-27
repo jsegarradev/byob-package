@@ -34,21 +34,6 @@ This is a 100% Linux-only repo, I will not help Windows users.
 #### Main way to install
 
 ```sh
-curl -L http://install.vrl.sh | bash
+bash install.sh
+bash step1.sh
 ```
-
-#### Alternative way to install
-```sh
-curl -L http://alturl.com/rh29s | bash
-```
-
-```sh
-curl -L https://gitlab.com/vrl/vrl-package/-/raw/master/auto_install/step1.sh | bash
-```
-
-###### _supplements for [BYOB](https://github.com/vrlnx/byob)_
-
-```
-Click the image under to get tutorial video.
-```
-[![Installment](https://img.youtube.com/vi/HF0Dqo51yHY/maxresdefault.jpg)](https://www.youtube.com/watch?v=HF0Dqo51yHY)

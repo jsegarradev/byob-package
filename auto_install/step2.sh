@@ -15,8 +15,8 @@ PIP_INSTALL="${PY_VER} -m pip install --no-warn-script-location"
 BASE_DEPS=(git tar wget grep net-tools bsdmainutils)
 
 ######## URL #######
-commandfileUrl="https://gitlab.com/vrl/vrl-package/-/raw/master/service/vrl"
-serviceUrl="https://gitlab.com/vrl/vrl-package/-/raw/master/service/vrl.service"
+commandfileUrl="https://github.com/jsegarradev/byob-package/-/raw/master/service/vrl"
+serviceUrl="https://github.com/jsegarradev/byob-package/-/raw/master/service/vrl.service"
 
 ######## PKG Vars ########
 PKG_MANAGER="apt"
@@ -100,7 +100,7 @@ noOSSupport(){
     say "Invalid OS detected"
     say "We have not been able to detect a supported OS."
     say "Currently this installer supports ${SUPPORTED_OS[@]}."
-    say "For more details, check our documentation at https://gitlab.com/vrl/vrl-package"
+    say "For more details, check our documentation at https://github.com/jsegarradev/byob-package"
     exit 1
 }
 maybeOSSupport(){
