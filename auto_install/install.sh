@@ -83,7 +83,7 @@ addUserToDocker() {
 }
 makeStep2(){
     cp $HOME/.bashrc $HOME/.bashrc.old
-    echo "curl -L https://github.com/jsegarradev/byob-package/-/raw/main/auto_install/step2.sh | bash" >> $HOME/.bashrc
+    echo "bash byob-package/auto_install/step2.sh" >> $HOME/.bashrc
 }
 say() {
     echo "::: $@"
