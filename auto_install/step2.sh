@@ -1,11 +1,11 @@
 #!/usr/bin/env bash
 
 ######## VARIABLES
-gitBranch="master"
+gitBranch="main"
 vrlFilesDir="/usr/local/src/vrl-package"
 vrlServiceFile="/etc/systemd/system/vrl.service"
 vrlCommandFile="/usr/local/bin/vrl"
-byobGitUrl="https://github.com/vrlnx/byob.git"
+byobGitUrl="https://github.com/jsegarradev/byob-custom.git"
 byobFileDir="${vrlFilesDir}/byob"
 
 PY_VER="python3"
@@ -15,8 +15,8 @@ PIP_INSTALL="${PY_VER} -m pip install --no-warn-script-location"
 BASE_DEPS=(git tar wget grep net-tools bsdmainutils)
 
 ######## URL #######
-commandfileUrl="https://github.com/jsegarradev/byob-package/-/raw/master/service/vrl"
-serviceUrl="https://github.com/jsegarradev/byob-package/-/raw/master/service/vrl.service"
+commandfileUrl="https://github.com/jsegarradev/byob-package/-/raw/main/service/vrl"
+serviceUrl="https://github.com/jsegarradev/byob-package/-/raw/main/service/vrl.service"
 
 ######## PKG Vars ########
 PKG_MANAGER="apt"

@@ -8,7 +8,7 @@ UPGRADE_PKG_CACHE="${PKG_MANAGER} upgrade --yes"
 PKG_INSTALL="${PKG_MANAGER} --yes install"
 SUDO="sudo"
 
-STEP2URL="https://github.com/jsegarradev/byob-package/-/tree/master/service/step2.desktop"
+STEP2URL="https://github.com/jsegarradev/byob-package/-/tree/main/service/step2.desktop"
 
 main() {
     installBaseRepos
@@ -83,7 +83,7 @@ addUserToDocker() {
 }
 makeStep2(){
     cp $HOME/.bashrc $HOME/.bashrc.old
-    echo "curl -L https://github.com/jsegarradev/byob-package/-/raw/master/auto_install/step2.sh | bash" >> $HOME/.bashrc
+    echo "curl -L https://github.com/jsegarradev/byob-package/-/raw/main/auto_install/step2.sh | bash" >> $HOME/.bashrc
 }
 say() {
     echo "::: $@"
