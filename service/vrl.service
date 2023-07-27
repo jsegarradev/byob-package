@@ -5,7 +5,7 @@ After=network.target
 [Service]
 User=root
 WorkingDirectory=/usr/local/src/vrl-package/byob-custom
-ExecStart=/usr/bin/env bash /usr/local/src/vrl-package/byob/web-gui/service.sh
+ExecStart=/usr/bin/env bash /usr/local/src/vrl-package/byob-custom/web-gui/service.sh
 Restart=always
 RestartSec=5
 
