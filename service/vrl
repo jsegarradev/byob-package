@@ -13,7 +13,7 @@ vrlFilesDir="/usr/local/src/vrl-package"
 vrlServiceFile="/etc/systemd/system/vrl.service"
 vrlCommandFile="/usr/local/bin/vrl"
 byobGitUrl="https://github.com/jsegarradev/byob-custom.git"
-byobFileDir="${vrlFilesDir}/byob"
+byobFileDir="${vrlFilesDir}/byob-custom"
 say() {
     echo "::: $@"
 }
@@ -55,7 +55,7 @@ case $1 in
         sudo systemctl daemon-reload
         ;;
     update)
-        cd ${vrlFilesDir}/byob
+        cd ${vrlFilesDir}/byob-custom
         $SUDO git reset --hard HEAD
         $SUDO git pull
         cd $HOME

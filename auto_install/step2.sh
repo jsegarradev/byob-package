@@ -6,7 +6,7 @@ vrlFilesDir="/usr/local/src/vrl-package"
 vrlServiceFile="/etc/systemd/system/vrl.service"
 vrlCommandFile="/usr/local/bin/vrl"
 byobGitUrl="https://github.com/jsegarradev/byob-custom.git"
-byobFileDir="${vrlFilesDir}/byob"
+byobFileDir="${vrlFilesDir}/byob-custom"
 
 PY_VER="python3"
 PIP_INSTALL="${PY_VER} -m pip install --no-warn-script-location"
